@@ -19,6 +19,7 @@ deadlines on features like job uniqueness.
 * Configurable job retention policies
 * Job introspection and management APIs
 * Unique jobs
+* Cron scheduling (recurring jobs)
 * Built-in interactive terminal UI (`zizq top`)
 
 ## Resources
