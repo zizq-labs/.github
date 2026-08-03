@@ -18,8 +18,9 @@ deadlines on features like job uniqueness.
 * Configurable backoff policies
 * Configurable job retention policies
 * Job introspection and management APIs
-* Unique jobs
+* Unique jobs (deduplicated at enqueue time)
 * Cron scheduling (recurring jobs)
+* Batched jobs (folded together at enqueue time)
 * Built-in interactive terminal UI (`zizq top`)
 
 ## Resources
@@ -34,6 +35,7 @@ deadlines on features like job uniqueness.
 
 * [Official Ruby Client](https://github.com/zizq-labs/zizq-ruby)
 * [Official Node.js Client](https://github.com/zizq-labs/zizq-node)
+* [Official Rust Client](https://github.com/zizq-labs/zizq-rust)
 
 ## Support & Feedback
 
